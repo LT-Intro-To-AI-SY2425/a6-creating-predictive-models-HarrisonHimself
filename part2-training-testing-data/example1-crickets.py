@@ -60,9 +60,7 @@ plt.figure(figsize=(5,4))
 #creates a scatter plot and labels the axes
 plt.scatter(xtrain,ytrain, c="purple", label="Training Data")
 plt.scatter(xtest, ytest, c="blue", label="Testing Data")
-
 plt.scatter(xtest, predict, c="red", label="Predictions")
-
 plt.xlabel("Temperature ºF")
 plt.ylabel("Chirps per Minute")
 plt.title("Cricket Chirps by Temperature")
