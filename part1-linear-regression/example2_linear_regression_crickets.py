@@ -7,6 +7,8 @@ from sklearn.linear_model import LinearRegression
 data = pd.read_csv("part1-linear-regression/chirping_data.csv")
 x = data["Temp"].values
 y = data["Chirps"].values
+print(x)
+print(y)
 
 # use reshape to turn the x values into a 2D array
 x = x.reshape(-1, 1)
